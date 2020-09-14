@@ -2,7 +2,7 @@ import re
 import collections
 
 # 获取词表、计数
-with open('/Users/zhangwanyu/Desktop/NLP课程/NLP_week_17/pt20200913/data.txt') as f:
+with open('/Users/zhangwanyu/data.txt') as f:
     data = f.readlines()
     model = collections.defaultdict(int)
     vocab = set()
